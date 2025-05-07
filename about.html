@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DolceGusto Italia - Il Progetto</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">DolceGusto Italia</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Funzionalità</a></li>
+                    <li><a href="about.html" class="active">Il Progetto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <div class="container">
+                <h1>DolceGusto Italia: La Nostra Passione, la Tua Scoperta.</h1>
+            </div>
+        </section>
+
+        <section id="mission" class="info-section">
+            <div class="container">
+                <h2>Valorizzare l'Artigianalità Italiana</h2>
+                <p>DolceGusto Italia nasce dalla passione per l'autentica tradizione dolciaria italiana e dalla volontà di connettere i maestri artigiani con un pubblico più ampio. Crediamo che dietro ogni gelato e ogni pasticcino ci sia una storia, un saper fare e una dedizione che meritano di essere scoperti e celebrati.</p>
+                <p>Risolviamo il problema della difficoltà nel distinguere la vera qualità artigianale e nel trovare fornitori affidabili di prodotti genuini.</p>
+            </div>
+        </section>
+
+        <section id="vision" class="info-section bg-light">
+            <div class="container">
+                <h2>Un Ecosistema per il Gusto di Qualità</h2>
+                <p>Immaginiamo DolceGusto Italia come un ecosistema che supporta e promuove l'eccellenza:</p>
+                <ul>
+                    <li><strong>Per gli Artigiani:</strong> Una vetrina per raggiungere nuovi clienti B2C e B2B.</li>
+                    <li><strong>Per le Aziende:</strong> Uno strumento affidabile per selezionare prodotti di alta qualità.</li>
+                    <li><strong>Per gli Appassionati:</strong> Un compagno di viaggio per esplorare l'Italia attraverso i suoi sapori.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="why-us" class="info-section">
+            <div class="container">
+                <h2>Perché Scegliere DolceGusto Italia?</h2>
+                <ul>
+                    <li><strong>Focus sull'Autenticità:</strong> Selezioniamo solo vere realtà artigianali.</li>
+                    <li><strong>Esperienze Interattive:</strong> Assaggi, visite ai laboratori, creazione gusti.</li>
+                    <li><strong>Valore per il B2B:</strong> Funzionalità pensate per le esigenze delle aziende.</li>
+                    <li><strong>Innovazione Continua:</strong> Siamo sempre al lavoro per migliorare.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="join-us" class="info-section bg-light">
+            <div class="container">
+                <h2>Unisciti a Noi</h2>
+                <p>Entra a Far Parte della Rivoluzione del Gusto!</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary" onclick="alert('Modulo di registrazione per artigiani in arrivo!')">Sei un Artigiano?</button>
+                    <button class="btn btn-secondary" id="partnership">Rappresenti un'Azienda?</button>
+                    <button class="btn btn-primary" onclick="alert('Registrazione utente in sviluppo!')">Sei un Appassionato?</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-premium" class="info-section" style="display:none;"> <!-- Nascosto per ora -->
+             <div class="container">
+                <h2>Contattaci per la Versione Premium o Partnership</h2>
+                <p>Siamo entusiasti di collaborare con te! Compila il form sottostante (simulato) o scrivici a <a href="mailto:info@dolcegustoitalia.it">info@dolcegustoitalia.it</a>.</p>
+                <form id="contactForm" class="contact-form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Messaggio:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit" class="btn btn-primary">Invia Messaggio (Simulato)</button>
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> DolceGusto Italia - Tutti i diritti riservati.</p>
+             <p>
+                <a href="index.html">Home</a> |
+                <a href="features.html">Funzionalità</a> |
+                <a href="about.html">Il Progetto</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
